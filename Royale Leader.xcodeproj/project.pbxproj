@@ -15,11 +15,19 @@
 		DB3A2CB321B8A9FF00AA4C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3A2CB121B8A9FF00AA4C2F /* LaunchScreen.storyboard */; };
 		DB3A2CCD21B8B3A100AA4C2F /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CCC21B8B3A100AA4C2F /* ApiConfiguration.swift */; };
 		DB3A2CCF21B8B3BC00AA4C2F /* RouterEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CCE21B8B3BC00AA4C2F /* RouterEndpoint.swift */; };
-		DB3A2CD121B8B3C700AA4C2F /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD021B8B3C700AA4C2F /* Api.swift */; };
 		DB3A2CD321B8B3D400AA4C2F /* A model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD221B8B3D400AA4C2F /* A model.swift */; };
 		DB3A2CD521B8B3DB00AA4C2F /* A view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD421B8B3DB00AA4C2F /* A view.swift */; };
-		DB3A2CD721B8B3E300AA4C2F /* A Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD621B8B3E300AA4C2F /* A Helper.swift */; };
-		DB3A2CD921B8B3F000AA4C2F /* An Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD821B8B3F000AA4C2F /* An Extension.swift */; };
+		DBBAA00221B9FE310027B85C /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00121B9FE310027B85C /* APIConfiguration.swift */; };
+		DBBAA00421B9FE490027B85C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00321B9FE490027B85C /* Client.swift */; };
+		DBBAA00621B9FEC90027B85C /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00521B9FEC90027B85C /* DeviceHelper.swift */; };
+		DBBAA00821B9FEE30027B85C /* LanguageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00721B9FEE30027B85C /* LanguageHelper.swift */; };
+		DBBAA00A21B9FEF80027B85C /* HUDHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00921B9FEF80027B85C /* HUDHelper.swift */; };
+		DBBAA00C21B9FF0C0027B85C /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00B21B9FF0C0027B85C /* ReachabilityManager.swift */; };
+		DBBAA00E21B9FF250027B85C /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00D21B9FF250027B85C /* UserDefaultsHelper.swift */; };
+		DBBAA01021B9FF4A0027B85C /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00F21B9FF4A0027B85C /* String.swift */; };
+		DBBAA01221B9FF770027B85C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01121B9FF770027B85C /* Date.swift */; };
+		DBBAA01421B9FFA30027B85C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01321B9FFA30027B85C /* AlertView.swift */; };
+		DBBAA01821BA00050027B85C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01721BA00050027B85C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,11 +46,19 @@
 		DB3A2CBE21B8AB9500AA4C2F /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A2CCC21B8B3A100AA4C2F /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
 		DB3A2CCE21B8B3BC00AA4C2F /* RouterEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterEndpoint.swift; sourceTree = "<group>"; };
-		DB3A2CD021B8B3C700AA4C2F /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		DB3A2CD221B8B3D400AA4C2F /* A model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A model.swift"; sourceTree = "<group>"; };
 		DB3A2CD421B8B3DB00AA4C2F /* A view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A view.swift"; sourceTree = "<group>"; };
-		DB3A2CD621B8B3E300AA4C2F /* A Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A Helper.swift"; sourceTree = "<group>"; };
-		DB3A2CD821B8B3F000AA4C2F /* An Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "An Extension.swift"; sourceTree = "<group>"; };
+		DBBAA00121B9FE310027B85C /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		DBBAA00321B9FE490027B85C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		DBBAA00521B9FEC90027B85C /* DeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
+		DBBAA00721B9FEE30027B85C /* LanguageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageHelper.swift; sourceTree = "<group>"; };
+		DBBAA00921B9FEF80027B85C /* HUDHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDHelper.swift; sourceTree = "<group>"; };
+		DBBAA00B21B9FF0C0027B85C /* ReachabilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityManager.swift; sourceTree = "<group>"; };
+		DBBAA00D21B9FF250027B85C /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		DBBAA00F21B9FF4A0027B85C /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		DBBAA01121B9FF770027B85C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		DBBAA01321B9FFA30027B85C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		DBBAA01721BA00050027B85C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +132,7 @@
 				DB3A2CB421B8A9FF00AA4C2F /* Info.plist */,
 				DB3A2CAF21B8A9FF00AA4C2F /* Assets.xcassets */,
 				DB3A2CA821B8A9FE00AA4C2F /* AppDelegate.swift */,
+				DBBAA01721BA00050027B85C /* Constants.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -123,7 +140,9 @@
 		DB3A2CC221B8B29900AA4C2F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CD821B8B3F000AA4C2F /* An Extension.swift */,
+				DBBAA00F21B9FF4A0027B85C /* String.swift */,
+				DBBAA01121B9FF770027B85C /* Date.swift */,
+				DBBAA01321B9FFA30027B85C /* AlertView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -131,7 +150,11 @@
 		DB3A2CC321B8B29C00AA4C2F /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CD621B8B3E300AA4C2F /* A Helper.swift */,
+				DBBAA00521B9FEC90027B85C /* DeviceHelper.swift */,
+				DBBAA00721B9FEE30027B85C /* LanguageHelper.swift */,
+				DBBAA00921B9FEF80027B85C /* HUDHelper.swift */,
+				DBBAA00B21B9FF0C0027B85C /* ReachabilityManager.swift */,
+				DBBAA00D21B9FF250027B85C /* UserDefaultsHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -172,9 +195,9 @@
 		DB3A2CC821B8B2A800AA4C2F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CCB21B8B37600AA4C2F /* Calls */,
-				DB3A2CCA21B8B36F00AA4C2F /* Router */,
 				DB3A2CC921B8B36100AA4C2F /* Manager */,
+				DB3A2CCA21B8B36F00AA4C2F /* Router */,
+				DB3A2CCB21B8B37600AA4C2F /* Calls */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -182,7 +205,8 @@
 		DB3A2CC921B8B36100AA4C2F /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CD021B8B3C700AA4C2F /* Api.swift */,
+				DBBAA00121B9FE310027B85C /* APIConfiguration.swift */,
+				DBBAA00321B9FE490027B85C /* Client.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -285,6 +309,7 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
@@ -296,6 +321,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
@@ -333,14 +359,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBAA00E21B9FF250027B85C /* UserDefaultsHelper.swift in Sources */,
+				DBBAA01821BA00050027B85C /* Constants.swift in Sources */,
+				DBBAA01221B9FF770027B85C /* Date.swift in Sources */,
+				DBBAA00C21B9FF0C0027B85C /* ReachabilityManager.swift in Sources */,
 				DB3A2CAB21B8A9FE00AA4C2F /* ViewController.swift in Sources */,
 				DB3A2CCF21B8B3BC00AA4C2F /* RouterEndpoint.swift in Sources */,
-				DB3A2CD721B8B3E300AA4C2F /* A Helper.swift in Sources */,
+				DBBAA01021B9FF4A0027B85C /* String.swift in Sources */,
+				DBBAA00821B9FEE30027B85C /* LanguageHelper.swift in Sources */,
+				DBBAA00A21B9FEF80027B85C /* HUDHelper.swift in Sources */,
 				DB3A2CA921B8A9FE00AA4C2F /* AppDelegate.swift in Sources */,
+				DBBAA00221B9FE310027B85C /* APIConfiguration.swift in Sources */,
 				DB3A2CD521B8B3DB00AA4C2F /* A view.swift in Sources */,
-				DB3A2CD121B8B3C700AA4C2F /* Api.swift in Sources */,
-				DB3A2CD921B8B3F000AA4C2F /* An Extension.swift in Sources */,
 				DB3A2CD321B8B3D400AA4C2F /* A model.swift in Sources */,
+				DBBAA00621B9FEC90027B85C /* DeviceHelper.swift in Sources */,
+				DBBAA01421B9FFA30027B85C /* AlertView.swift in Sources */,
+				DBBAA00421B9FE490027B85C /* Client.swift in Sources */,
 				DB3A2CCD21B8B3A100AA4C2F /* ApiConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
