@@ -13,10 +13,9 @@
 		DB3A2CAE21B8A9FE00AA4C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3A2CAC21B8A9FE00AA4C2F /* Main.storyboard */; };
 		DB3A2CB021B8A9FF00AA4C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3A2CAF21B8A9FF00AA4C2F /* Assets.xcassets */; };
 		DB3A2CB321B8A9FF00AA4C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3A2CB121B8A9FF00AA4C2F /* LaunchScreen.storyboard */; };
-		DB3A2CCD21B8B3A100AA4C2F /* ApiConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CCC21B8B3A100AA4C2F /* ApiConfiguration.swift */; };
 		DB3A2CCF21B8B3BC00AA4C2F /* RouterEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CCE21B8B3BC00AA4C2F /* RouterEndpoint.swift */; };
-		DB3A2CD321B8B3D400AA4C2F /* A model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD221B8B3D400AA4C2F /* A model.swift */; };
 		DB3A2CD521B8B3DB00AA4C2F /* A view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD421B8B3DB00AA4C2F /* A view.swift */; };
+		DB712F3A21BA131500C203C0 /* Clan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB712F3921BA131500C203C0 /* Clan.swift */; };
 		DBBAA00221B9FE310027B85C /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00121B9FE310027B85C /* APIConfiguration.swift */; };
 		DBBAA00421B9FE490027B85C /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00321B9FE490027B85C /* Client.swift */; };
 		DBBAA00621B9FEC90027B85C /* DeviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA00521B9FEC90027B85C /* DeviceHelper.swift */; };
@@ -28,6 +27,8 @@
 		DBBAA01221B9FF770027B85C /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01121B9FF770027B85C /* Date.swift */; };
 		DBBAA01421B9FFA30027B85C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01321B9FFA30027B85C /* AlertView.swift */; };
 		DBBAA01821BA00050027B85C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01721BA00050027B85C /* Constants.swift */; };
+		DBBAA01A21BA034E0027B85C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01921BA034E0027B85C /* ErrorResponse.swift */; };
+		DBBAA01C21BA0CD00027B85C /* APIClans.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBAA01B21BA0CD00027B85C /* APIClans.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +45,9 @@
 		DB3A2CBA21B8AB5200AA4C2F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A2CBC21B8AB7700AA4C2F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A2CBE21B8AB9500AA4C2F /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB3A2CCC21B8B3A100AA4C2F /* ApiConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConfiguration.swift; sourceTree = "<group>"; };
 		DB3A2CCE21B8B3BC00AA4C2F /* RouterEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterEndpoint.swift; sourceTree = "<group>"; };
-		DB3A2CD221B8B3D400AA4C2F /* A model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A model.swift"; sourceTree = "<group>"; };
 		DB3A2CD421B8B3DB00AA4C2F /* A view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A view.swift"; sourceTree = "<group>"; };
+		DB712F3921BA131500C203C0 /* Clan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clan.swift; sourceTree = "<group>"; };
 		DBBAA00121B9FE310027B85C /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
 		DBBAA00321B9FE490027B85C /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 		DBBAA00521B9FEC90027B85C /* DeviceHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHelper.swift; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		DBBAA01121B9FF770027B85C /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		DBBAA01321B9FFA30027B85C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		DBBAA01721BA00050027B85C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DBBAA01921BA034E0027B85C /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		DBBAA01B21BA0CD00027B85C /* APIClans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClans.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +189,8 @@
 		DB3A2CC721B8B2A600AA4C2F /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CD221B8B3D400AA4C2F /* A model.swift */,
+				DBBAA01921BA034E0027B85C /* ErrorResponse.swift */,
+				DB712F3921BA131500C203C0 /* Clan.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,7 +225,7 @@
 		DB3A2CCB21B8B37600AA4C2F /* Calls */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CCC21B8B3A100AA4C2F /* ApiConfiguration.swift */,
+				DBBAA01B21BA0CD00027B85C /* APIClans.swift */,
 			);
 			path = Calls;
 			sourceTree = "<group>";
@@ -360,22 +363,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBBAA00E21B9FF250027B85C /* UserDefaultsHelper.swift in Sources */,
+				DB712F3A21BA131500C203C0 /* Clan.swift in Sources */,
 				DBBAA01821BA00050027B85C /* Constants.swift in Sources */,
 				DBBAA01221B9FF770027B85C /* Date.swift in Sources */,
 				DBBAA00C21B9FF0C0027B85C /* ReachabilityManager.swift in Sources */,
 				DB3A2CAB21B8A9FE00AA4C2F /* ViewController.swift in Sources */,
 				DB3A2CCF21B8B3BC00AA4C2F /* RouterEndpoint.swift in Sources */,
 				DBBAA01021B9FF4A0027B85C /* String.swift in Sources */,
+				DBBAA01A21BA034E0027B85C /* ErrorResponse.swift in Sources */,
+				DBBAA01C21BA0CD00027B85C /* APIClans.swift in Sources */,
 				DBBAA00821B9FEE30027B85C /* LanguageHelper.swift in Sources */,
 				DBBAA00A21B9FEF80027B85C /* HUDHelper.swift in Sources */,
 				DB3A2CA921B8A9FE00AA4C2F /* AppDelegate.swift in Sources */,
 				DBBAA00221B9FE310027B85C /* APIConfiguration.swift in Sources */,
 				DB3A2CD521B8B3DB00AA4C2F /* A view.swift in Sources */,
-				DB3A2CD321B8B3D400AA4C2F /* A model.swift in Sources */,
 				DBBAA00621B9FEC90027B85C /* DeviceHelper.swift in Sources */,
 				DBBAA01421B9FFA30027B85C /* AlertView.swift in Sources */,
 				DBBAA00421B9FE490027B85C /* Client.swift in Sources */,
-				DB3A2CCD21B8B3A100AA4C2F /* ApiConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
