@@ -68,8 +68,8 @@ enum RouterEndpoint: APIConfiguration {
            
             return params
             
-        case .clanBattles(let tag):
-            let params = ["tag": tag] as [String: Any]
+        case .clanBattles(_):
+            let params = ["type": "clanMate"] as [String: Any]
             
             return params
     

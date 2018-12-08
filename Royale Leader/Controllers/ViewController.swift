@@ -15,7 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         
-        APIClans.clan(tag: "#PCGPJCJR") { (response, result, status) in
+//        APIClans.clan(tag: "#PCGPJCJR") { (response, result, status) in
+//            switch status {
+//            case .success( _):
+//                print("success \(result)")
+//            case .failure(let error):
+//                print(error)
+//            }
+//        }
+        
+        APIClans.clanBattles(tag: "#PCGPJCJR") { (response, result, status) in
             switch status {
             case .success( _):
                 print("success \(result)")

@@ -11,7 +11,7 @@ import Alamofire
 
 class APIClans {
     static func clan(tag: String, completion:@escaping (ErrorResponse?, Clan?, Result<Any>) -> Void) {
-        Client.performRequest(route: RouterEndpoint.clan(tag: tag)) { (result) in
+        Client.performRequest(route: .clan(tag: tag)) { (result) in
             guard let json = result.value as? JSON else { completion(nil, nil, result)
                 return }
             
@@ -21,6 +21,25 @@ class APIClans {
                 
             completion(response, clan, result)
         
+        }
+    }
+    
+    static func clanBattles(tag: String, completion:@escaping (ErrorResponse?, ClanBattles?, Result<Any>) -> Void) {
+        Client.performRequest(route: .clanBattles(tag: tag)) { (result) in
+           
+            guard let json = result.value as? [JSON] else {
+                if let j = result.value as? JSON {
+                    let response = ErrorResponse(json: j)
+
+                    completion(response, nil, result)
+                } else {
+                    completion(nil, nil, result)
+                }
+                return }
+            
+            let clanBattles = ClanBattles(json: json)
+            
+            completion(nil, clanBattles, result)
         }
     }
 }
