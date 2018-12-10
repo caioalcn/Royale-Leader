@@ -22,7 +22,12 @@ struct Clan {
     let badge: Badge?
     let location: Location?
     let members: [Member]? = []
-   
+    let participants: Int?
+    let battlesPlayed: Int?
+    let wins: Int?
+    let crowns: Int?
+    let warTrophies: Int?
+    
     init(json: JSON) {
         tag = json["tag"] as? String
         name = json["name"] as? String
@@ -32,6 +37,11 @@ struct Clan {
         memberCount = json["memberCount"] as? Int
         requiredScore = json["requiredScore"] as? Int
         donations = json["donations"] as? Int
+        participants = json["participants"] as? Int
+        battlesPlayed = json["battlesPlayed"] as? Int
+        wins = json["wins"] as? Int
+        crowns = json["crowns"] as? Int
+        warTrophies = json["warTrophies"] as? Int
         
         if let t = json["tracking"] as? JSON{
             tracking = Tracking(json: t)

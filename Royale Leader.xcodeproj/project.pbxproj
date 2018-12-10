@@ -8,19 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		41E506150E9F17FE6E5EA697 /* Pods_Royale_Leader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7613A2815CDA1A41FF4A0CB3 /* Pods_Royale_Leader.framework */; };
+		DB257A2B21BDDEA800746350 /* ClanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB257A2A21BDDEA800746350 /* ClanViewController.swift */; };
+		DB257A2D21BDF6C500746350 /* ParticipantsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB257A2C21BDF6C500746350 /* ParticipantsCell.swift */; };
 		DB3A2CA921B8A9FE00AA4C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CA821B8A9FE00AA4C2F /* AppDelegate.swift */; };
-		DB3A2CAB21B8A9FE00AA4C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CAA21B8A9FE00AA4C2F /* ViewController.swift */; };
 		DB3A2CAE21B8A9FE00AA4C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3A2CAC21B8A9FE00AA4C2F /* Main.storyboard */; };
 		DB3A2CB021B8A9FF00AA4C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3A2CAF21B8A9FF00AA4C2F /* Assets.xcassets */; };
 		DB3A2CB321B8A9FF00AA4C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3A2CB121B8A9FF00AA4C2F /* LaunchScreen.storyboard */; };
 		DB3A2CCF21B8B3BC00AA4C2F /* RouterEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CCE21B8B3BC00AA4C2F /* RouterEndpoint.swift */; };
-		DB3A2CD521B8B3DB00AA4C2F /* A view.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A2CD421B8B3DB00AA4C2F /* A view.swift */; };
 		DB3B9B5E21BAB11200DC4406 /* Tracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B9B5D21BAB11200DC4406 /* Tracking.swift */; };
 		DB3B9B6021BAB16100DC4406 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B9B5F21BAB16100DC4406 /* Badge.swift */; };
 		DB3B9B6221BAB2B300DC4406 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B9B6121BAB2B300DC4406 /* Location.swift */; };
 		DB3B9B6421BAB34E00DC4406 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B9B6321BAB34E00DC4406 /* Member.swift */; };
 		DB3B9B6621BAB3DB00DC4406 /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3B9B6521BAB3DB00DC4406 /* Arena.swift */; };
 		DB712F3A21BA131500C203C0 /* Clan.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB712F3921BA131500C203C0 /* Clan.swift */; };
+		DB9EE61921BCA37600E2E757 /* ClanWar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9EE61821BCA37600E2E757 /* ClanWar.swift */; };
+		DB9EE61B21BCA3E900E2E757 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9EE61A21BCA3E900E2E757 /* Player.swift */; };
+		DB9EE61D21BCA73200E2E757 /* ClanWarLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9EE61C21BCA73200E2E757 /* ClanWarLog.swift */; };
+		DB9EE61F21BCA92600E2E757 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9EE61E21BCA92600E2E757 /* Log.swift */; };
+		DB9EE62121BCA9E200E2E757 /* Standing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9EE62021BCA9E200E2E757 /* Standing.swift */; };
+		DB9EE64221BCCC0C00E2E757 /* Supercell-magic-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB9EE64121BCCC0000E2E757 /* Supercell-magic-webfont.ttf */; };
 		DBA256CF21BB4DC600BAD7A0 /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA256CE21BB4DC600BAD7A0 /* Mode.swift */; };
 		DBA256D121BB58CF00BAD7A0 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA256D021BB58CF00BAD7A0 /* Battle.swift */; };
 		DBA256D321BB5C6800BAD7A0 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA256D221BB5C6800BAD7A0 /* Team.swift */; };
@@ -46,9 +52,10 @@
 		060832A1907123A79DF06DDB /* Pods-Royale Leader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Royale Leader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Royale Leader/Pods-Royale Leader.debug.xcconfig"; sourceTree = "<group>"; };
 		7613A2815CDA1A41FF4A0CB3 /* Pods_Royale_Leader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Royale_Leader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D485EB790BE483F279F45D0E /* Pods-Royale Leader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Royale Leader.release.xcconfig"; path = "Pods/Target Support Files/Pods-Royale Leader/Pods-Royale Leader.release.xcconfig"; sourceTree = "<group>"; };
+		DB257A2A21BDDEA800746350 /* ClanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanViewController.swift; sourceTree = "<group>"; };
+		DB257A2C21BDF6C500746350 /* ParticipantsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCell.swift; sourceTree = "<group>"; };
 		DB3A2CA521B8A9FE00AA4C2F /* Royale Leader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Royale Leader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A2CA821B8A9FE00AA4C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB3A2CAA21B8A9FE00AA4C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB3A2CAD21B8A9FE00AA4C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB3A2CAF21B8A9FF00AA4C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB3A2CB221B8A9FF00AA4C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,13 +64,18 @@
 		DB3A2CBC21B8AB7700AA4C2F /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A2CBE21B8AB9500AA4C2F /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB3A2CCE21B8B3BC00AA4C2F /* RouterEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterEndpoint.swift; sourceTree = "<group>"; };
-		DB3A2CD421B8B3DB00AA4C2F /* A view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "A view.swift"; sourceTree = "<group>"; };
 		DB3B9B5D21BAB11200DC4406 /* Tracking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tracking.swift; sourceTree = "<group>"; };
 		DB3B9B5F21BAB16100DC4406 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		DB3B9B6121BAB2B300DC4406 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		DB3B9B6321BAB34E00DC4406 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		DB3B9B6521BAB3DB00DC4406 /* Arena.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arena.swift; sourceTree = "<group>"; };
 		DB712F3921BA131500C203C0 /* Clan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clan.swift; sourceTree = "<group>"; };
+		DB9EE61821BCA37600E2E757 /* ClanWar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanWar.swift; sourceTree = "<group>"; };
+		DB9EE61A21BCA3E900E2E757 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DB9EE61C21BCA73200E2E757 /* ClanWarLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClanWarLog.swift; sourceTree = "<group>"; };
+		DB9EE61E21BCA92600E2E757 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		DB9EE62021BCA9E200E2E757 /* Standing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Standing.swift; sourceTree = "<group>"; };
+		DB9EE64121BCCC0000E2E757 /* Supercell-magic-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Supercell-magic-webfont.ttf"; sourceTree = "<group>"; };
 		DBA256CE21BB4DC600BAD7A0 /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 		DBA256D021BB58CF00BAD7A0 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
 		DBA256D221BB5C6800BAD7A0 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
@@ -153,6 +165,7 @@
 		DB3A2CC021B8B28700AA4C2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB9EE64021BCCBE800E2E757 /* Fonts */,
 				DB3A2CB421B8A9FF00AA4C2F /* Info.plist */,
 				DB3A2CAF21B8A9FF00AA4C2F /* Assets.xcassets */,
 				DB3A2CA821B8A9FE00AA4C2F /* AppDelegate.swift */,
@@ -195,7 +208,7 @@
 		DB3A2CC521B8B2A100AA4C2F /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CAA21B8A9FE00AA4C2F /* ViewController.swift */,
+				DB257A2A21BDDEA800746350 /* ClanViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -203,7 +216,7 @@
 		DB3A2CC621B8B2A400AA4C2F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DB3A2CD421B8B3DB00AA4C2F /* A view.swift */,
+				DB257A2C21BDF6C500746350 /* ParticipantsCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +227,8 @@
 				DBBAA01921BA034E0027B85C /* ErrorResponse.swift */,
 				DB712F3921BA131500C203C0 /* Clan.swift */,
 				DBC7D19221BAC328006883B4 /* ClanBattles.swift */,
+				DB9EE61821BCA37600E2E757 /* ClanWar.swift */,
+				DB9EE61C21BCA73200E2E757 /* ClanWarLog.swift */,
 				DB3B9B5D21BAB11200DC4406 /* Tracking.swift */,
 				DB3B9B5F21BAB16100DC4406 /* Badge.swift */,
 				DB3B9B6121BAB2B300DC4406 /* Location.swift */,
@@ -224,6 +239,9 @@
 				DBA256D221BB5C6800BAD7A0 /* Team.swift */,
 				DBA256D621BB668B00BAD7A0 /* Opponent.swift */,
 				DBA256D421BB5DB200BAD7A0 /* Card.swift */,
+				DB9EE61A21BCA3E900E2E757 /* Player.swift */,
+				DB9EE61E21BCA92600E2E757 /* Log.swift */,
+				DB9EE62021BCA9E200E2E757 /* Standing.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -261,6 +279,14 @@
 				DBBAA01B21BA0CD00027B85C /* APIClans.swift */,
 			);
 			path = Calls;
+			sourceTree = "<group>";
+		};
+		DB9EE64021BCCBE800E2E757 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB9EE64121BCCC0000E2E757 /* Supercell-magic-webfont.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +351,7 @@
 			files = (
 				DB3A2CB321B8A9FF00AA4C2F /* LaunchScreen.storyboard in Resources */,
 				DB3A2CB021B8A9FF00AA4C2F /* Assets.xcassets in Resources */,
+				DB9EE64221BCCC0C00E2E757 /* Supercell-magic-webfont.ttf in Resources */,
 				DB3A2CAE21B8A9FE00AA4C2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -345,7 +372,6 @@
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/KRActivityIndicatorView/KRActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/KRProgressHUD/KRProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
@@ -357,7 +383,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
@@ -397,31 +422,36 @@
 			files = (
 				DBBAA00E21B9FF250027B85C /* UserDefaultsHelper.swift in Sources */,
 				DBA256D121BB58CF00BAD7A0 /* Battle.swift in Sources */,
+				DB9EE61F21BCA92600E2E757 /* Log.swift in Sources */,
 				DBC7D19321BAC328006883B4 /* ClanBattles.swift in Sources */,
 				DB712F3A21BA131500C203C0 /* Clan.swift in Sources */,
 				DBBAA01821BA00050027B85C /* Constants.swift in Sources */,
+				DB257A2D21BDF6C500746350 /* ParticipantsCell.swift in Sources */,
 				DBBAA01221B9FF770027B85C /* Date.swift in Sources */,
 				DBBAA00C21B9FF0C0027B85C /* ReachabilityManager.swift in Sources */,
 				DBA256CF21BB4DC600BAD7A0 /* Mode.swift in Sources */,
 				DB3B9B6021BAB16100DC4406 /* Badge.swift in Sources */,
-				DB3A2CAB21B8A9FE00AA4C2F /* ViewController.swift in Sources */,
 				DB3A2CCF21B8B3BC00AA4C2F /* RouterEndpoint.swift in Sources */,
 				DB3B9B6621BAB3DB00DC4406 /* Arena.swift in Sources */,
 				DBBAA01021B9FF4A0027B85C /* String.swift in Sources */,
+				DB9EE61B21BCA3E900E2E757 /* Player.swift in Sources */,
 				DBBAA01A21BA034E0027B85C /* ErrorResponse.swift in Sources */,
 				DBBAA01C21BA0CD00027B85C /* APIClans.swift in Sources */,
 				DBBAA00821B9FEE30027B85C /* LanguageHelper.swift in Sources */,
 				DBBAA00A21B9FEF80027B85C /* HUDHelper.swift in Sources */,
 				DB3B9B6221BAB2B300DC4406 /* Location.swift in Sources */,
+				DB9EE61921BCA37600E2E757 /* ClanWar.swift in Sources */,
+				DB9EE62121BCA9E200E2E757 /* Standing.swift in Sources */,
 				DBA256D321BB5C6800BAD7A0 /* Team.swift in Sources */,
+				DB9EE61D21BCA73200E2E757 /* ClanWarLog.swift in Sources */,
 				DB3A2CA921B8A9FE00AA4C2F /* AppDelegate.swift in Sources */,
 				DBA256D721BB668B00BAD7A0 /* Opponent.swift in Sources */,
 				DBBAA00221B9FE310027B85C /* APIConfiguration.swift in Sources */,
-				DB3A2CD521B8B3DB00AA4C2F /* A view.swift in Sources */,
 				DBBAA00621B9FEC90027B85C /* DeviceHelper.swift in Sources */,
 				DBA256D521BB5DB200BAD7A0 /* Card.swift in Sources */,
 				DBBAA01421B9FFA30027B85C /* AlertView.swift in Sources */,
 				DB3B9B5E21BAB11200DC4406 /* Tracking.swift in Sources */,
+				DB257A2B21BDDEA800746350 /* ClanViewController.swift in Sources */,
 				DBBAA00421B9FE490027B85C /* Client.swift in Sources */,
 				DB3B9B6421BAB34E00DC4406 /* Member.swift in Sources */,
 			);

@@ -23,6 +23,8 @@ var kChoosedServer: String { get {
     }
 }
 
+var kAssetsURL = "https://royaleapi.github.io/cr-api-assets"
+
 var kDeveloperKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjEwOSwiaWRlbiI6IjE0NDEwNDQzMjczMTI5MTY0OCIsIm1kIjp7fSwidHMiOjE1NDQxMjY2NDQ2MTV9.gWluTJ8c-opE1FEPb8V6KgyA4dPZDnTB4uguAdy60bs"
 
 enum Enviroment: String {

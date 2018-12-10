@@ -9,6 +9,5 @@ target 'Royale Leader' do
   pod 'SDWebImage', '~> 4.0'
   pod 'ReachabilitySwift'
   pod 'Alamofire', '~> 4.7'
-  pod 'KeychainAccess'
 
 end

@@ -9,13 +9,15 @@
 import Foundation
 
 struct Tracking {
-    let active: Int?
+    let tag: String?
+    let active: Bool?
+    let available: Bool?
     let snapshotCount: Int?
-    let available: Int?
     
     init(json: JSON) {
-        active = json["active"] as? Int
+        tag = json["tag"] as? String
+        active = json["active"] as? Bool
+        available = json["available"] as? Bool
         snapshotCount = json["snapshotCount"] as? Int
-        available = json["available"] as? Int
     }
 }

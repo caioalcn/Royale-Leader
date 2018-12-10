@@ -8,9 +8,6 @@
 
 import Foundation
 import Alamofire
-import KeychainAccess
-
-let keychain = Keychain(service: DeviceHelper.bundleID())
 
 enum RouterEndpoint: APIConfiguration {
     
